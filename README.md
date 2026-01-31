@@ -50,7 +50,7 @@ The [**mid-range**][mid-range], or **mid-extreme**, is the arithmetic mean of th
 ## Usage
 
 ```javascript
-import nanmidrangeBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-nanmidrange-by@esm/index.mjs';
+import nanmidrangeBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-nanmidrange-by@v0.1.0-esm/index.mjs';
 ```
 
 #### nanmidrangeBy( arrays, clbk\[, thisArg ] )
@@ -140,7 +140,7 @@ import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-bernoulli@esm/index.mjs';
 import ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ctor@esm/index.mjs';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@esm/index.mjs';
-import nanmidrangeBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-nanmidrange-by@esm/index.mjs';
+import nanmidrangeBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-nanmidrange-by@v0.1.0-esm/index.mjs';
 
 function clbk( value ) {
     return value * 2.0;
