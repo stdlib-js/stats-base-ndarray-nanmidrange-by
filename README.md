@@ -52,6 +52,11 @@ The [**mid-range**][mid-range], or **mid-extreme**, is the arithmetic mean of th
 To use in Observable,
 
 ```javascript
+nanmidrangeBy = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-nanmidrange-by@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-ndarray-nanmidrange-by/tags). For example,
+
+```javascript
 nanmidrangeBy = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-nanmidrange-by@v0.1.1-umd/browser.js' )
 ```
 
@@ -64,7 +69,7 @@ var nanmidrangeBy = require( 'path/to/vendor/umd/stats-base-ndarray-nanmidrange-
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-nanmidrange-by@v0.1.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-nanmidrange-by@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -162,7 +167,7 @@ var count = ctx.count;
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-bernoulli@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ctor@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-nanmidrange-by@v0.1.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-nanmidrange-by@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
